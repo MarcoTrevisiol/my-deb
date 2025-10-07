@@ -1,4 +1,4 @@
-my-deb (0~unstable1) unstable; urgency=low
+my-deb (0~dev1) UNRELEASED; urgency=low
 
   * Initial release: metapackages for base configuration.
 
