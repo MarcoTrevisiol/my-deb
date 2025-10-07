@@ -3,8 +3,7 @@ Section: metapackages
 Priority: optional
 Maintainer: Marco Trevisiol <marco@trevisiol.casa>
 Build-Depends: debhelper-compat (= 13)
-Standards-Version: 4.6.2
-Rules-Requires-Root: no
+Standards-Version: 4.7.2
 
 Package: my-deb-base
 Architecture: all
