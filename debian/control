@@ -11,5 +11,24 @@ Depends: ${misc:Depends},
  less,
  bash-completion,
  htop
-Description: Base configuration for my debian machines
+Description: Base configuration for all of my debian machines
  This package install basic packages always needed on my machines.
+
+Package: my-deb-dev
+Architecture: all
+Depends: ${misc:Depends},
+Description: Configuration for development machines
+ This package install packages needed for development.
+
+Package: my-deb-workstation
+Architecture: all
+Depends: ${misc:Depends},
+Description: Configuration for workstations
+ This package install packages needed for graphical workstation.
+
+Package: my-deb-gaming
+Architecture: all
+Depends: ${misc:Depends},
+Description: Configuration for gaming
+ This package install packages needed for gaming.
+
