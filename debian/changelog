@@ -1,5 +1,8 @@
-my-deb (0~dev1) UNRELEASED; urgency=low
+my-deb (0~dev1) UNRELEASED; urgency=medium
 
+  [ Marco Trevisiol ]
   * Initial release: metapackages for base configuration.
+  * Fixed pedantic warnings
+  * Added apt conffile
 
- -- Marco Trevisiol <marco@trevisiol.casa>  Tue, 07 Oct 2025 15:00:00 +0000
+ -- Marco Trevisiol <marco@trevisiol.casa>  Wed, 08 Oct 2025 11:58:26 +0200
