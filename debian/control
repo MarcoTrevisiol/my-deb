@@ -8,6 +8,8 @@ Standards-Version: 4.7.2
 Package: my-deb-base
 Architecture: all
 Depends: ${misc:Depends},
- less, git, htop
+ less,
+ bash-completion,
+ htop
 Description: Base configuration for my debian machines
  This package install basic packages always needed on my machines.
