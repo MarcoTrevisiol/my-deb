@@ -9,6 +9,7 @@ Package: my-deb-base
 Architecture: all
 Depends: ${misc:Depends},
  debian-archive-keyring,
+ procps,
  less,
  bash-completion,
  file,
@@ -16,7 +17,9 @@ Depends: ${misc:Depends},
  locales,
  mtr-tiny,
  stow,
- htop
+ sensible-utils,
+ htop,
+ manpages,
 Description: Base configuration for all of my debian machines
  This package install basic packages always needed on my machines.
 
