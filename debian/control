@@ -5,12 +5,13 @@ Maintainer: Marco Trevisiol <marco@trevisiol.casa>
 Build-Depends: debhelper-compat (= 13)
 Standards-Version: 4.7.2
 
-Package: my-deb-base
+Package: my-deb
 Architecture: all
 Depends: ${misc:Depends},
  debian-archive-keyring,
  procps,
  less,
+ vim-tiny,
  bash-completion,
  file,
  iputils-ping,
