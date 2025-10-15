@@ -1,11 +1,11 @@
-Source: my-deb
+Source: trevisiol-base
 Section: metapackages
 Priority: optional
 Maintainer: Marco Trevisiol <marco@trevisiol.casa>
 Build-Depends: debhelper-compat (= 13)
 Standards-Version: 4.7.2
 
-Package: my-deb
+Package: trevisiol-base
 Architecture: all
 Depends: ${misc:Depends},
  debian-archive-keyring,
@@ -22,8 +22,6 @@ Depends: ${misc:Depends},
  htop,
  manpages,
  man-db,
- whiptail,
- tasksel,
-Description: Base configuration for all of my debian machines
+Description: base configuration for all of my debian machines
  This package install basic packages always needed on my machines.
 
