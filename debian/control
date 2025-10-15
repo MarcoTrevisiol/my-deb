@@ -60,6 +60,7 @@ Depends: ${misc:Depends},
  tealdeer,
  tmux,
  trash-cli,
+ vim,
  xz-utils,
  whiptail,
 Description: configuration for development machines
