@@ -72,8 +72,6 @@ Depends: ${misc:Depends},
  console-data,
  alacritty,
  firefox-esr,
- stterm,
- xinit,
  xorg,
  trevisiol-dwm,
 Description: minimal configuration for desktop
