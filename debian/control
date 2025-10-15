@@ -12,6 +12,7 @@ Depends: ${misc:Depends},
  procps,
  less,
  vim-tiny,
+ adduser,
  bash-completion,
  file,
  iputils-ping,
@@ -22,6 +23,7 @@ Depends: ${misc:Depends},
  htop,
  manpages,
  man-db,
+ lsb-release,
 Description: base configuration for all of my debian machines
  This package install basic packages always needed on my machines.
 
@@ -59,19 +61,28 @@ Depends: ${misc:Depends},
  tmux,
  trash-cli,
  xz-utils,
-Description: Configuration for development machines
+ whiptail,
+Description: configuration for development machines
  This package install packages needed for development.
 
-Package: trevisiol-desktop
+Package: trevisiol-minimal-desktop
 Architecture: all
 Depends: ${misc:Depends},
  console-setup,
  console-data,
- cryptsetup-bin,
+ alacritty,
+ firefox-esr,
+ stterm,
+ xinit,
+ xorg,
+ trevisiol-dwm,
+Description: minimal configuration for desktop
+ This package install packages needed for any graphical installation.
+
+Package: trevisiol-full-desktop
+Architecture: all
+Depends: ${misc:Depends},
  desktop-base,
- dkms,
- e2fsprogrs,
- fdisk,
  hunspell,
  hunspell-it,
  hunspell-en-gb,
@@ -81,34 +92,22 @@ Depends: ${misc:Depends},
  hyphen-en-us,
  djvulibre-bin,
  graphviz,
- alsa-utils,
- alacritty,
  calibre,
  feh,
  ffmpeg,
- firefox-esr,
  geogebra,
  gimp,
  gimp-data-extras,
  inkscape,
- inxi,
- k3b,
  kate,
  kile,
  latexmk,
- lm-sensors,
- lshw,
- mesa-utils,
- mesa-vulkan-drivers,
  mmdebstrap,
  netselect-apt,
- network-manager,
  nmap,
  okular,
  okular-extra-backends,
- pavucontrol,
  pciutils,
- pmount,
  poppler-utils,
  popularity-contest,
  python3-pandas,
@@ -119,24 +118,40 @@ Depends: ${misc:Depends},
  rclone,
  sqlite3,
  sqlitebrowser,
- stterm,
  texlive-full,
  ucf,
  vlc,
- whiptail,
  wireguard-tools,
- wireless-tools,
  witalian,
- wodim,
  xclip,
  xdg-utils,
  xdotool,
- xinit,
- xorg,
-Description: Configuration for workstations
+Description: configuration for workstations
  This package install packages needed for graphical workstation.
 
-Package: trevsiiol-gaming
+Package: trevisiol-laptop
+Architecture: all
+Depends: ${misc:Depends},
+ alsa-utils,
+ cryptsetup-bin,
+ dkms,
+ e2fsprogrs,
+ fdisk,
+ k3b,
+ inxi,
+ lm-sensors,
+ lshw,
+ mesa-utils,
+ mesa-vulkan-drivers,
+ network-manager,
+ pavucontrol,
+ pmount,
+ wireless-tools,
+ wodim,
+Description: configuration for laptops
+ This package install packages needed for laptops.
+
+Package: trevisiol-gaming
 Architecture: all
 Depends: ${misc:Depends},
  lutris,
@@ -144,6 +159,5 @@ Depends: ${misc:Depends},
  wine-stable,
  wine32,
  winetricks
-Description: Configuration for gaming
+Description: configuration for gaming
  This package install packages needed for gaming.
-
