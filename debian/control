@@ -62,6 +62,7 @@ Depends: ${misc:Depends},
  trash-cli,
  vim,
  xz-utils,
+ wget,
  whiptail,
 Description: configuration for development machines
  This package install packages needed for development.
