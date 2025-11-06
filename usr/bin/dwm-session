@@ -2,4 +2,5 @@
 
 feh --no-fehbg --bg-fill /usr/share/wallpapers/red.webp
 xcompmgr -f -D 5 &
+slstatus &
 exec dwm
